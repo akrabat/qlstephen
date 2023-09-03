@@ -104,6 +104,9 @@
   if ([components[0] rangeOfString:@"text"].location != NSNotFound)
     return YES;
 
+  if ([components[0] rangeOfString:@"json"].location != NSNotFound)
+    return YES;
+
   NSString *UTType =
       CFBridgingRelease(UTTypeCreatePreferredIdentifierForTag(
                             kUTTagClassMIMEType,
