@@ -17,8 +17,8 @@ This is a fork of [whomwah/qlstephen](https://github.com/whomwah/qlstephen) whic
 Highlights:
 
 * Compiles on latest macOS
-* Supports YAML files
 * Supports JSON files
+* Supports YAML and many more text file formats
 
 
 ## Installation of this fork
