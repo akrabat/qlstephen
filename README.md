@@ -1,4 +1,4 @@
-# QuicklookStephen
+# QuicklookStephen (Akrabat fork)
 
 QLStephen is a QuickLook plugin that lets you view text files without their own dedicated QuickLook plugin. Files like:
 
@@ -9,25 +9,33 @@ QLStephen is a QuickLook plugin that lets you view text files without their own 
     package.json
     etc...
 
-## Installation
 
-### Homebrew
+## This fork: akrabat/qlstephen
 
-    brew install --cask qlstephen
+This is a fork of [whomwah/qlstephen](https://github.com/whomwah/qlstephen) which includes various tweaks to make it work as I want to.
 
-### Pre-compiled
+Highlights:
 
-* [Download the latest version of QuickLookStephen](https://github.com/whomwah/qlstephen/releases)
-* Unzip
-* Copy the file into `~/Library/QuickLook` (You can create the `QuickLook` folder if it doesn’t exist)
+* Compiles on latest macOS
+* Supports YAML files
+* Supports JSON files
+
+
+## Installation of this fork
+
 
 ### Manually Compiled
 
-Compiling the project yourself? Run:
+Compiling the project yourself.
 
-    make
-    make install
-    
+1. Install Xcode
+2. Clone this repo
+3. Run:
+
+        make
+        make install
+
+
 ## Permissions (Quarantine)
 
 If you run into issues with macOS not letting you run the plugin because it's not signed by a verified developer you can follow these steps:
